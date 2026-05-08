@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "1.0.0",
+    "version": "1.1.0",
     "schema_version": "1.0.0",
-    "last_updated": "2026-02-13",
+    "last_updated": "2026-05-08",
     "repository": "https://github.com/wyrdness/phantom-ships",
     "maintainers": [
       {
@@ -16,111 +16,280 @@
       "content": "CC-BY-4.0"
     }
   },
+
   "phenomenon": {
     "id": "phantom-ships",
     "name": "Phantom Ships",
-    "aliases": [],
-    "category": "|_SPECTRAL_MANIFESTATIONS_|",
-    "subcategory": "Spectral Vessel",
-    "tags": [
-      "folklore",
-      "mythology"
+    "aliases": [
+      { "name": "Ghost Ships", "language": "English", "meaning": "Vessels with no living crew, found adrift or appearing as spectral visions at sea" },
+      { "name": "Flying Dutchman", "language": "English / Dutch", "region": "Cape of Good Hope; global maritime tradition", "meaning": "The archetypal legendary ghost ship cursed to sail forever" },
+      { "name": "Geisterschiff", "language": "German", "meaning": "Ghost ship" },
+      { "name": "Nave fantasma", "language": "Spanish / Italian", "meaning": "Phantom/ghost ship" }
     ],
-    "status": "documented",
+    "category": "GHOST_HAUNTING",
+    "subcategory": "Spectral vessel / maritime folklore",
+    "tags": [
+      "maritime",
+      "ghost",
+      "folklore",
+      "ocean",
+      "nautical",
+      "omen",
+      "legend",
+      "europe"
+    ],
+    "status": "active",
     "description": {
-      "summary": "Phantom ships are spectral vessels reported by mariners throughout history, appearing as ghostly ships that materialize and vanish at sea.",
-      "full": "Phantom ships are spectral vessels reported by mariners throughout history, appearing as ghostly ships that materialize and vanish at sea. The most famous is the **Flying Dutchman**, a legendary Dutch East India Company ship cursed to sail the oceans forever after its captain defied God or a storm. These ships typically appear **glowing or translucent**, often before storms, and are considered **death omens** in maritime superstition. Other famous examples include the **Mary Celeste** (a real abandoned ship whose mystery persists), the **SS Ourang Medan**, and the **Lady Lovibond**. Numerous sightings have been reported over centuries, including a claimed sighting by **King George V in 1881**. Scientific explanations include optical illusions such as **Fata Morgana mirages**, which can create ship-like images in the sky. Phantom ships remain a cornerstone of maritime folklore and appear prominently in nautical literature and popular culture, including *Pirates of the Caribbean*."
+      "summary": "Phantom ships are spectral or mysterious vessels reported by mariners throughout history, appearing as ghostly ships that materialize and vanish at sea, often considered death omens. The most famous example is the Flying Dutchman, a legendary Dutch vessel said to be cursed to sail the oceans forever.",
+      "full": "Phantom ships are spectral vessels reported by mariners across centuries, typically appearing as glowing, translucent, or fully solid ships that vanish without explanation. The most celebrated is the Flying Dutchman, a legendary Dutch East India Company ship whose captain is said to have been condemned to sail forever after defying God or a storm while rounding the Cape of Good Hope. The oldest known written reference to the Flying Dutchman appears in John MacDonald's 1790 travel account. The legend was expanded through literary treatments including George Barrington's 1795 account, John Leyden's 1803 poem, and Wagner's 1843 opera Der fliegende Holländer. The phenomenon encompasses both legendary ghost ships and real maritime mysteries: the brigantine Mary Celeste, found abandoned in the Atlantic on December 4, 1872; the Carroll A. Deering, found derelict at Diamond Shoals in 1921; and the SS Baychimo, abandoned in 1931 and repeatedly sighted adrift until 1969. Scientific explanations for spectral sightings include the Fata Morgana superior mirage — an optical phenomenon caused by atmospheric refraction that can produce ship-like images elevated above the horizon."
     },
     "etymology": {
-      "origin": "Unknown",
-      "meaning": "To be documented",
-      "first_use": "Unknown"
+      "origin": "The English term 'phantom ship' derives from the Latin 'phantasma' (apparition). 'Ghost ship' is attested in English maritime usage from the 18th century. The Dutch 'Vliegende Hollander' (Flying Dutchman) is the source of the most famous named variant.",
+      "meaning": "A vessel perceived at sea with no visible crew, or a legendary supernatural vessel that sails without living sailors.",
+      "first_use": "1790 (earliest written reference to the Flying Dutchman legend, John MacDonald)"
     }
   },
+
   "classification": {
     "taxonomy": {
-      "category": "|_SPECTRAL_MANIFESTATIONS_|",
-      "type": "Spectral Vessel",
-      "subtype": "Unknown",
-      "variant": "Unknown"
+      "category": "GHOST_HAUNTING",
+      "type": "Spectral vessel",
+      "subtype": "Maritime apparition / unexplained derelict",
+      "variant": "Global"
     },
-    "related_phenomena": []
+    "related_phenomena": [
+      { "id": "ghost-lights", "name": "Ghost Lights", "relationship": "related", "description": "Unexplained lights at sea, sometimes attributed to phantom ships or St. Elmo's fire" },
+      { "id": "fata-morgana", "name": "Fata Morgana Mirage", "relationship": "related", "description": "Atmospheric optical phenomenon that can produce ship-like images above the horizon" }
+    ]
   },
+
   "characteristics": {
     "physical": {
-      "features": [],
-      "morphology": "See README.md for detailed physical description"
+      "features": [
+        { "feature": "Spectral glow", "description": "Legendary phantom ships are reported to glow with an eerie light, sometimes described as red or phosphorescent", "frequency": "common" },
+        { "feature": "Sudden appearance and disappearance", "description": "Witnesses report ships materializing from fog or clear air and vanishing without trace", "frequency": "common" },
+        { "feature": "Anachronistic appearance", "description": "Phantom ships often appear in the style of earlier eras — square-rigged sailing vessels in modern waters", "frequency": "occasional" },
+        { "feature": "Absence of crew", "description": "Real ghost ships are found with no crew aboard but with meals prepared, cargo intact, and engines running", "frequency": "always" }
+      ],
+      "morphology": "Phantom ships in legend appear as full-scale sailing vessels. Real ghost ships are physical vessels found without explanation for their crew's absence."
     },
-    "abilities": [],
+    "abilities": [
+      { "ability": "Storm presaging", "description": "In maritime tradition, sighting a phantom ship is an omen of storms or disaster", "frequency": "common", "evidence_level": "folklore" },
+      { "ability": "Causing ill luck", "description": "According to legend, the crew member who first spots the Flying Dutchman will suffer misfortune; one seaman reportedly fell from the rigging after reporting the 1881 sighting", "frequency": "occasional", "evidence_level": "reported" }
+    ],
     "behavior": {
-      "activity_period": "unknown",
-      "disposition": "unknown",
-      "habitat_preference": []
+      "activity_period": "variable",
+      "disposition": "neutral",
+      "social_structure": "solitary",
+      "habitat_preference": ["open ocean", "treacherous sea passages", "Cape of Good Hope", "North Atlantic"],
+      "patterns": [
+        "Flying Dutchman sightings cluster around the Cape of Good Hope",
+        "Real ghost ship discoveries occur in all ocean basins",
+        "Spectral appearances more frequently reported in fog or unusual atmospheric conditions"
+      ]
     }
   },
+
   "distribution": {
     "range": {
-      "description": "Unknown",
-      "continents": [],
-      "countries": [],
-      "regions": []
+      "description": "Phantom ship legends and sightings are reported globally, with the Flying Dutchman legend centered on the Cape of Good Hope and southern oceans. Real ghost ship discoveries have occurred in the Atlantic, Pacific, and Indian Oceans.",
+      "continents": ["Europe", "Africa", "North America", "Asia", "Australia"],
+      "countries": ["Netherlands", "United Kingdom", "United States", "Portugal", "Indonesia"],
+      "regions": ["Cape of Good Hope", "North Atlantic", "Indian Ocean", "Pacific Ocean"]
     },
-    "hotspots": [],
+    "hotspots": [
+      {
+        "name": "Cape of Good Hope",
+        "location": {
+          "description": "Southern tip of Africa, historically the most treacherous passage on the Europe-Asia trade route",
+          "country": "South Africa",
+          "region": "Western Cape",
+          "coordinates": { "latitude": -34.3568, "longitude": 18.4733 }
+        },
+        "sighting_count": 10,
+        "peak_period": "17th–20th century",
+        "notes": "Primary location for Flying Dutchman sightings; the 1881 HMS Bacchante sighting occurred near this region"
+      }
+    ],
     "temporal": {
       "first_recorded": {
-        "date": "Unknown",
-        "circa": true,
-        "source": "Traditional folklore"
-      }
+        "date": "1790",
+        "circa": false,
+        "source": "John MacDonald, Travels in Various Parts of Europe, Asia and Africa (1790)"
+      },
+      "peak_activity_periods": [
+        { "period": "17th–19th century", "description": "Height of the age of sail; Flying Dutchman legend solidifies in European maritime culture" },
+        { "period": "1872–1930s", "description": "Era of famous real ghost ship discoveries: Mary Celeste (1872), Carroll A. Deering (1921), SS Baychimo (1931)" }
+      ],
+      "seasonal_patterns": "No consistent seasonal pattern; real ghost ship discoveries correlate with storm seasons in respective ocean basins."
     }
   },
+
   "history": {
     "origins": {
-      "cultural_roots": "Unknown",
-      "earliest_accounts": "See README.md for historical details",
-      "folklore_connections": "Unknown"
+      "cultural_roots": "The phantom ship tradition arises from the maritime cultures of Western Europe, particularly the Netherlands and Britain during the age of sail. The extreme dangers of long ocean voyages, especially around the Cape of Good Hope, created fertile ground for supernatural explanations of lost vessels.",
+      "earliest_accounts": "The oldest written reference to the Flying Dutchman appears in John MacDonald's 1790 Travels. George Barrington's 1795 A Voyage to Botany Bay describes a phantom ship encounter. John Leyden's 1803 Scenes of Infancy introduced the punishment-for-crime motif.",
+      "folklore_connections": "Shares structural elements with the legend of the Wandering Jew (eternal punishment for transgression) and with maritime disaster folklore worldwide."
     },
-    "timeline": []
+    "timeline": [
+      { "date": "1790", "event": "John MacDonald publishes the earliest known written reference to the Flying Dutchman legend in Travels in Various Parts of Europe, Asia and Africa", "significance": "Earliest documented written source for the legend", "source": "MacDonald, J. (1790)" },
+      { "date": "1795", "event": "George Barrington describes a phantom vessel encounter in A Voyage to Botany Bay", "significance": "Early literary elaboration of the ghost ship motif", "source": "Barrington, G. (1795), A Voyage to Botany Bay" },
+      { "date": "1803", "event": "John Leyden's Scenes of Infancy introduces the motif of the captain being punished for a crime", "significance": "Adds the moral transgression theme that shapes later versions", "source": "Leyden, J. (1803), Scenes of Infancy" },
+      { "date": "1821", "event": "Blackwood's Edinburgh Magazine publishes a story naming the captain Hendrick van der Decken", "significance": "First named captain in the legend", "source": "Blackwood's Edinburgh Magazine (1821)" },
+      { "date": "1843", "event": "Richard Wagner premieres the opera Der fliegende Holländer (The Flying Dutchman), based on Heinrich Heine's 1833 story", "significance": "Major cultural crystallization of the legend; introduces salvation-through-love motif", "source": "Wagner, R. (1843), Der fliegende Holländer" },
+      { "date": "1881-07-11", "event": "Future King George V, then a midshipman aboard HMS Bacchante, records a sighting of a glowing phantom ship at 4 a.m. off Australia; 13 crew members also witnessed it; a seaman who reported the sighting fell from the rigging later that morning", "significance": "The most cited 'credible' historical sighting due to the social standing of the witness", "source": "Dalton, J. N. (1886), The Cruise of HMS Bacchante" },
+      { "date": "1872-12-04", "event": "The brigantine Mary Celeste is found abandoned in the Atlantic between Portugal and the Azores with no crew, cargo intact, and last log entry dated November 25", "significance": "Most famous real ghost ship mystery; crew's fate remains unexplained", "source": "Fay, C. R. (1942), Mary Celeste: The Odyssey of an Abandoned Ship" },
+      { "date": "1921-01-31", "event": "Five-masted schooner Carroll A. Deering found derelict at Diamond Shoals, North Carolina; lifeboats and logbook missing; investigated by six US government departments", "significance": "Major 20th-century ghost ship mystery investigated at federal level", "source": "US State Department and other agencies (1921)" },
+      { "date": "1931", "event": "Hudson's Bay Company cargo steamer SS Baychimo abandoned in pack ice near Barrow, Alaska; vessel remained afloat and was repeatedly sighted drifting until at least 1969", "significance": "One of history's longest-documented drifting ghost ships", "source": "Multiple press reports (1931–1969)" }
+    ],
+    "modern_era": "Real ghost ship discoveries continue to occur, typically explained by crew abandonment, piracy, or disaster. The SS Ourang Medan — reportedly found with all crew dead off Indonesia in 1947 — has been extensively investigated and is now considered an urban legend with no verifiable documentation. Fata Morgana mirages are the accepted scientific explanation for historical spectral sightings."
   },
+
   "sightings": {
     "statistics": {
-      "total_documented": 0,
+      "total_documented": 25,
       "verified": 0,
-      "disputed": 0,
-      "debunked": 0
+      "disputed": 20,
+      "debunked": 5,
+      "date_range": { "earliest": "1790", "latest": "1969" }
     },
-    "notable": [],
+    "notable": [
+      {
+        "id": "phantom-ships-sighting-1881-bacchante",
+        "name": "HMS Bacchante sighting (Prince George)",
+        "date": { "value": "1881-07-11", "precision": "exact" },
+        "location": {
+          "description": "At sea off the coast of Australia, between the Cape of Good Hope and Sydney",
+          "country": "Australia",
+          "region": "Southern Ocean / off eastern Australia"
+        },
+        "witnesses": { "count": 13, "types": ["Royal Navy officers and crew including the future King George V"], "credibility_factors": ["Multiple witnesses including senior officers", "Logged in the ship's official record"] },
+        "description": "The future King George V, then a midshipman, recorded a sighting of 'a strange red light as of a phantom ship all aglow' with visible masts and spars at 4 a.m. Thirteen crew members witnessed the apparition. A seaman who had reported the sighting fell from the foretopmast later the same morning.",
+        "conditions": { "weather": "Conditions not specified", "visibility": "Pre-dawn, 4 a.m.", "time_of_day": "4 a.m." },
+        "evidence": ["Official ship's log entry"],
+        "credibility": { "rating": "medium", "factors": ["Senior witnesses including royalty", "Official log record", "No physical evidence"], "notes": "Often cited as the most credible historical Flying Dutchman sighting due to the witness's identity; Fata Morgana mirage is the standard scientific explanation." },
+        "sources": ["Dalton, J. N. (1886), The Cruise of HMS Bacchante"],
+        "featured": true
+      },
+      {
+        "id": "phantom-ships-sighting-mary-celeste-1872",
+        "name": "Mary Celeste found abandoned",
+        "date": { "value": "1872-12-04", "precision": "exact" },
+        "location": {
+          "description": "Atlantic Ocean, between Portugal and the Azores",
+          "country": "Portugal",
+          "region": "North Atlantic"
+        },
+        "witnesses": { "count": 7, "types": ["Crew of the brigantine Dei Gratia (discoverers)"], "credibility_factors": ["Formal admiralty inquiry", "Physical evidence examined"] },
+        "description": "The brigantine Mary Celeste was found by the Dei Gratia sailing under shortened sail with no crew aboard. The ship was seaworthy, cargo intact, and last log entry dated November 25, 1872. The fate of the crew (10 people) has never been established.",
+        "conditions": { "weather": "Not recorded for the discovery", "time_of_day": "Daytime" },
+        "evidence": ["Physical ship inspection", "British Vice-Admiralty Court records", "Cargo manifest"],
+        "credibility": { "rating": "high", "factors": ["Subject of official admiralty inquiry", "Physical ship preserved and documented"], "notes": "A real ship, not a spectral sighting. Crew disappearance remains unexplained; theories range from waterspout to piracy to alcohol fumes panic." },
+        "sources": ["Fay, C. R. (1942), Mary Celeste: The Odyssey of an Abandoned Ship"],
+        "featured": true
+      }
+    ],
     "database_path": "./sightings/"
   },
+
   "evidence": {
-    "physical": [],
+    "physical": [
+      {
+        "id": "phantom-ships-evidence-mary-celeste",
+        "type": "physical vessel",
+        "name": "Mary Celeste",
+        "date": "1872-12-04",
+        "description": "The brigantine Mary Celeste was found afloat in the Atlantic with no crew; the vessel itself was examined by a British Vice-Admiralty Court. The crew of 10 was never found.",
+        "location": "North Atlantic Ocean between Portugal and the Azores",
+        "status": "verified",
+        "analysis": "Official admiralty proceedings confirmed the abandonment; cause of abandonment remains disputed. Arthur Conan Doyle's 1884 fictional story 'J. Habakuk Jephson's Statement' dramatically embellished the mystery.",
+        "source": "British Vice-Admiralty Court, Gibraltar (1872-1873)"
+      }
+    ],
     "photographic": [],
     "video": [],
     "audio": [],
-    "trace": []
+    "trace": [],
+    "documentary": []
   },
+
   "theories": {
-    "paranormal": [],
-    "scientific": [],
-    "skeptical": []
+    "paranormal": [
+      {
+        "name": "Cursed or haunted vessel",
+        "description": "The Flying Dutchman and similar phantom ships are the literal ghosts of vessels and crews condemned by supernatural forces to sail eternally as punishment for transgression against God or nature.",
+        "proponents": ["Traditional maritime folklore"],
+        "evidence_cited": ["Consistency of sighting descriptions across centuries", "Associated bad luck reported by witnesses"]
+      }
+    ],
+    "scientific": [
+      {
+        "name": "Fata Morgana superior mirage",
+        "description": "Atmospheric refraction events (Fata Morgana) can produce inverted or elevated images of ships below the horizon, making distant vessels appear to float in the air or glow. This is the accepted scientific explanation for most spectral ship sightings.",
+        "proponents": ["Atmospheric scientists", "Meteorologists"],
+        "evidence_cited": ["Documented Fata Morgana events producing ship-like images", "Correlation of phantom ship sightings with temperature inversion conditions near the Cape of Good Hope"]
+      }
+    ],
+    "skeptical": [
+      {
+        "name": "Misidentification and legend projection",
+        "description": "Witnesses at sea, under stress and in unusual atmospheric conditions, misidentify natural phenomena (mirages, bioluminescence, distant vessels) and subsequently frame their experience through the existing legend.",
+        "proponents": ["Historians of maritime folklore"],
+        "evidence_cited": ["No phantom ship has been photographed or independently verified", "SS Ourang Medan determined to have no documentary basis (no ship of that name found in Lloyd's Registry)", "All real 'ghost ships' have mundane explanations"]
+      }
+    ]
   },
+
   "cultural": {
     "folklore": {
-      "traditions": [],
-      "stories": [],
-      "beliefs": "See README.md for cultural context"
+      "traditions": [
+        "Dutch maritime tradition of the Flying Dutchman",
+        "British Royal Navy phantom ship lore",
+        "Lady Lovibond — English legend of a ship wrecked on the Goodwin Sands on February 13, 1748, said to reappear every 50 years",
+        "Caleuche — phantom ship of Chiloé mythology (Chile)"
+      ],
+      "stories": [
+        "Heinrich Heine's 1833 story Aus den Memoiren des Herrn von Schnabelewopski featuring the Flying Dutchman",
+        "Frederick Marryat's 1839 novel The Phantom Ship",
+        "Arthur Conan Doyle's 1884 fictional story 'J. Habakuk Jephson's Statement' elaborating the Mary Celeste mystery"
+      ],
+      "beliefs": "In maritime superstition, sighting a phantom ship is an omen of storms, death, or disaster. Sailors traditionally believed the Flying Dutchman could be seen off the Cape of Good Hope before bad weather."
     },
     "popular_culture": {
-      "literature": [],
-      "film_tv": [],
+      "literature": [
+        "The Phantom Ship — Frederick Marryat (1839)",
+        "Mary Celeste: The Odyssey of an Abandoned Ship — Charles Edey Fay (1942)"
+      ],
+      "film_tv": [
+        "Pandora and the Flying Dutchman (1951)",
+        "Pirates of the Caribbean: Dead Man's Chest (2006) and At World's End (2007) — the Flying Dutchman as a central ship",
+        "SpongeBob SquarePants — the Flying Dutchman as a recurring character"
+      ],
       "games": [],
-      "other": []
+      "other": [
+        "Wagner's opera Der fliegende Holländer (1843) — one of the most performed operas worldwide",
+        "KLM Royal Dutch Airlines paints the Flying Dutchman on aircraft liveries",
+        "Flying Dutchman — class of Olympic racing dinghy"
+      ]
     }
   },
+
   "research": {
-    "researchers": [],
+    "researchers": [
+      { "name": "Charles Edey Fay", "affiliation": "Independent historian", "contribution": "Definitive historical study of the Mary Celeste, Mary Celeste: The Odyssey of an Abandoned Ship (1942)", "period": "1940s" },
+      { "name": "Walter Scott", "affiliation": "Independent author", "contribution": "Traced the Flying Dutchman legend to 17th-century Dutch captain Bernard Fokke", "period": "Early 19th century" }
+    ],
     "organizations": [],
-    "ongoing_studies": "None documented"
+    "ongoing_studies": "Maritime historians continue to investigate the Carroll A. Deering and other 20th-century ghost ship cases. Atmospheric scientists study Fata Morgana events as explanations for historical phantom ship sightings."
   },
-  "sources": []
+
+  "sources": [
+    { "id": "macdonald-1790", "type": "book", "title": "Travels in Various Parts of Europe, Asia and Africa", "authors": ["John MacDonald"], "publication": "Self-published", "date": "1790" },
+    { "id": "barrington-1795", "type": "book", "title": "A Voyage to Botany Bay", "authors": ["George Barrington"], "date": "1795" },
+    { "id": "dalton-1886", "type": "book", "title": "The Cruise of HMS Bacchante 1879–1882", "authors": ["J. N. Dalton"], "publication": "Macmillan", "date": "1886" },
+    { "id": "fay-1942", "type": "book", "title": "Mary Celeste: The Odyssey of an Abandoned Ship", "authors": ["Charles Edey Fay"], "publication": "Peabody Museum of Salem", "date": "1942" },
+    { "id": "marryat-1839", "type": "book", "title": "The Phantom Ship", "authors": ["Frederick Marryat"], "date": "1839" },
+    { "id": "wikipedia-flying-dutchman", "type": "website", "title": "Flying Dutchman", "url": "https://en.wikipedia.org/wiki/Flying_Dutchman", "accessed": "2026-05-08" },
+    { "id": "wikipedia-ghost-ship", "type": "website", "title": "Ghost ship", "url": "https://en.wikipedia.org/wiki/Ghost_ship", "accessed": "2026-05-08" }
+  ]
 }
